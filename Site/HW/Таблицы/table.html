@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Таблицы</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="..\css_style.css">
+	</head>
+	<body>
+	
+		<h1>Таблицы</h1>
+<ul>
+	<li><a href="..\Статьи\article.html">Статьи</a></li>
+	<li><a href="..\Каталог\catalog.html">Каталог</a></li>
+	<li><a href="..\Галерея изображений\gallery.html">Галерея изображений</a></li>
+	<li><a href="..\Регистрация\reg.html">Регистрация</a></li>
+	<li><a href="..\Контакты\contacts.html">Контакты</a></li>
+	<li><a href="table.html">->Таблицы</a></li>
+</ul>
+
+<a class="link2" href="..\index.html">Вернуться на главную</a>
+<br>
+<br>
+
+<table>
+	<tr>
+		<td rowspan="3">1</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td id="td1" colspan="2">4</td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>8</td>
+	</tr>
+</table>
+
+<br>
+
+<table>
+	<tr>
+		<td colspan="2">1</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td class="td2">4</td>
+		<td rowspan="2" colspan="2">
+			<table class="td3">
+			<tr>
+				<td></td>
+				<td rowspan="3"></td>
+				<td rowspan="2"></td>
+			</tr>
+			<tr>
+				<td rowspan="2"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="td2">7</td>
+	</tr>
+</table>
+<br>
+
+<footer>
+<p>&copy 2016 K&K</p>
+</footer>
+
+	</body>
+</html>

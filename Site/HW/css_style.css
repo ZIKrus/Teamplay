@@ -1,0 +1,231 @@
+body {
+	background: url(img/backgrounds/bg2.png);
+	margin: 0 auto;
+} /*Бэкграунд*/
+
+h1 {
+	text-align: center;
+	font-family: "Comic Sans MS"
+} /*Все заголовки шрифтом Comic*/
+
+.link1 {
+	font-family: "Monotype Corsiva";
+	text-decoration: none
+} /*Меню*/
+
+a.link2:hover {
+	text-decoration: none;
+	color: #FE2E64;
+} /*Статьи/Заголовки*/
+
+
+.border {
+	border-top: 0px;
+	border-bottom: 2px groove #8181F7;
+	border-left: 0px;
+	border-right: 0px;
+} /*Статьи/Заголовки: подчёркивание*/
+
+.bgtext {
+	background-color: #D8D8D8;
+	padding: 5px;
+	width: 560px;
+	border: 1px solid #A4A4A4;
+} /*Статьи/Заголовки: текст на фоне*/
+
+
+ul li a {
+	font-family: "Comic Sans MS";
+} /*Шрифт для меню*/
+
+/*ul li a:hover {
+	background-color: #FE2E2E;*/
+} /*Бэкграунд при наведении для меню*/
+
+a:link {
+	color: #8A0829;
+} /*Цвет непосещённых ссылок*/
+
+a:visited {
+	color: #41239C;
+} /*Цвет посещённых ссылок*/
+
+
+
+/*------------------------------------------------------------------------*/
+
+.li {
+	list-style-image: url(img/li1.png)
+} /*Каталог/Картинки для списка 1*/
+
+ul.li ul {
+	list-style-image: url(img/li2.png)
+} /*Каталог/Картинки для списка 2*/
+
+ul.li li {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+} /*Каталог/Цвет списка 1*/
+
+ul.li ul li {
+	font-size: 15px;
+	font-weight: lighter;
+	color: green;
+} /*Каталог/Цвет списка 2*/
+
+.new:after {
+	content:"New!";
+	background-color: red;
+	color: #FFFFFF;
+} /*Каталог/Значок New!*/
+
+
+.border2 {
+	border: 5px outset #0404B4;
+} /*Галерея/Рамки для картинок*/
+
+a img.border2:hover {
+	border-color: transparent;
+} /*Галерея/Рамки для картинок исчезают при наведении*/
+
+
+.cap{
+	text-transform: capitalize;
+} /*Регистрация/С большой буквы*/
+
+form table input[type="text"] {
+	width: 250px;
+} /*Регистрация/Ширина полей*/
+
+form input[type="password"] {
+	width: 150px;
+} /*Регистрация/Ширина поля пароля*/
+
+form input[value="http://"]:focus {
+	color: #FCFF00;
+	background-color: #0009FF
+} /*Регистрация/Цвет поля Email при наведении*/
+
+.ta {
+	width: 98%;
+	height: 100px;
+	resize: none;
+} /*Регистрация/Размер поля не меняется*/
+
+.reg_table {
+	border: black;
+	border-collapse: collapse;
+	margin: auto;
+} /*Регистрация/Убираем двойной бордер и выравниваем таблицы*/
+
+form table.reg_table td {
+	width: 300px;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+} /*Регистрация/Добавляем параметры*/
+
+
+form button[type="submit"]:active {
+	background-color: #00FCFF;
+} /*Цвет кнопок "Принять" */
+
+button[type="reset"]:active {
+	background-color: red;
+} /*Цвет кнопок "Сбросить" */
+
+
+footer {
+	font-family: "Arial black";
+	text-align: center;
+	margin-top: -17px;
+	background-image: url(img/backgrounds/footer.png)
+} /*Шрифт футера*/
+
+/*------------------------------------------------------------------------*/
+
+table, td {
+	border: 1px solid black;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+#main {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+#logo {
+	margin-left: 50px;
+}
+
+#header {
+	height: 111px;
+	background-image: url(img/head/bg_header.jpg);
+}
+
+#menu {
+	background-image: url(img/head/bg_menu.png);
+	vertical-align: top;
+	height: 40px;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+}
+
+#menu ul li{
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	height: 40px;
+	padding: 10px 30px;
+	vertical-align: middle;
+	position: relative;
+	top: -0.5em;
+}
+
+#menu ul li:after {
+	content: url(img/head/menu_sep.png)
+}
+
+#menu ul li:hover {
+	background-color: #FE2E2E;
+}
+
+
+#left_menu {
+	background-image: url(img/backgrounds/bg_left.jpg);
+	width: 308px;
+	height: 858px;
+}
+
+td#left_menu img {
+	padding: 29px 45px 469px 44px;
+}
+td#left_menu p {
+	text-align: 
+}
+
+#center_menu {
+	width: 603px;
+	height: 858px;
+}
+
+#right_menu {
+	background-image: url(img/backgrounds/bg_right.jpg);
+	width: 491px;
+	height: 858px;
+}
+
