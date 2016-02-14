@@ -214,11 +214,9 @@ table, td {
 td#left_menu img {
 	padding: 29px 45px 469px 44px;
 }
-td#left_menu p {
-	text-align: 
-}
 
 #center_menu {
+/*	background-color: white;*/
 	width: 603px;
 	height: 858px;
 }
@@ -229,3 +227,6 @@ td#left_menu p {
 	height: 858px;
 }
 
+td#right_menu img {
+	padding: 50px 34px 75px 23px;
+}
